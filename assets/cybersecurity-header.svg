@@ -1,0 +1,60 @@
+<svg viewBox="0 0 1200 350" role="img" aria-labelledby="title desc" xmlns="http://www.w3.org/2000/svg">
+  <title id="title">Sulthan Hadil Cybersecurity Header</title>
+  <desc id="desc">Dark cybersecurity themed header with subtle grid, circuit accents, and professional identity text.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070A0F"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#39FF88"/>
+      <stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#7AA2B8" stroke-opacity="0.12" stroke-width="1"/>
+    </pattern>
+    <style>
+      .scan { animation: scanline 9s linear infinite; }
+      .pulse { animation: pulse 6s ease-in-out infinite; }
+      @keyframes scanline {
+        0% { transform: translateY(-360px); }
+        100% { transform: translateY(360px); }
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 0.85; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .scan, .pulse { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="350" fill="url(#bg)"/>
+  <rect width="1200" height="350" fill="url(#grid)"/>
+
+  <g opacity="0.7">
+    <line x1="0" y1="290" x2="760" y2="290" stroke="url(#accent)" stroke-opacity="0.35" stroke-width="2"/>
+    <line x1="0" y1="305" x2="560" y2="305" stroke="#22D3EE" stroke-opacity="0.2" stroke-width="1"/>
+    <line x1="0" y1="320" x2="420" y2="320" stroke="#39FF88" stroke-opacity="0.2" stroke-width="1"/>
+  </g>
+
+  <g class="pulse">
+    <path d="M760 70 H1030 V110 H1120" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/>
+    <path d="M800 175 H960 V210 H1080" fill="none" stroke="#22D3EE" stroke-opacity="0.75" stroke-width="2" stroke-linecap="round"/>
+    <path d="M740 250 H920 V280 H1060" fill="none" stroke="#39FF88" stroke-opacity="0.65" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="1030" cy="90" r="6" fill="#39FF88"/>
+    <circle cx="960" cy="175" r="5" fill="#22D3EE"/>
+    <circle cx="920" cy="250" r="5" fill="#39FF88"/>
+    <circle cx="1120" cy="110" r="6" fill="#22D3EE"/>
+  </g>
+
+  <rect class="scan" x="0" y="0" width="1200" height="30" fill="url(#accent)" opacity="0.08"/>
+
+  <g>
+    <text x="70" y="130" fill="#E6EDF3" font-size="52" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-weight="700">Sulthan Hadil</text>
+    <text x="70" y="178" fill="#39FF88" font-size="28" font-family="'Segoe UI', 'Inter', Arial, sans-serif" font-weight="600">Aspiring Cybersecurity Analyst</text>
+    <text x="70" y="220" fill="#B7C5D3" font-size="21" font-family="'Consolas', 'Fira Code', monospace">Web Security | Ethical Hacking | Linux | Security Learning</text>
+    <text x="70" y="262" fill="#8EA4B5" font-size="16" font-family="'Consolas', 'Fira Code', monospace">Authorized Practice • Defensive Mindset • Continuous Improvement</text>
+  </g>
+</svg>
