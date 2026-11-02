@@ -11,7 +11,6 @@
 </p>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&width=850&lines=CYBERSECURITY+RESEARCHER;WEB+SECURITY+LEARNER;LINUX+%7C+NETWORK+SECURITY;SECURE+DEVELOPMENT+%7C+AUTOMATION" alt="Typing animation" />
-
 <img src="./assets/banner.svg" width="100%" alt="Animated cybersecurity banner" />
 
 </div>
@@ -32,7 +31,6 @@ I care about authorized testing, responsible disclosure, secure development habi
 - Secure coding, remediation, and reproducible technical workflows
 
 <img src="./assets/terminal.svg" width="100%" alt="Animated cybersecurity terminal" />
-
 <img src="./assets/divider.svg" width="100%" alt="Neon divider" />
 
 ## CYBERSECURITY ARSENAL
@@ -52,7 +50,6 @@ I care about authorized testing, responsible disclosure, secure development habi
 > Security tools listed here represent current learning and practice areas. Testing is authorized only.
 
 <img src="./assets/network.svg" width="100%" alt="Animated network topology" />
-
 <img src="./assets/divider.svg" width="100%" alt="Neon divider" />
 
 ## FEATURED PROJECTS
@@ -78,14 +75,14 @@ A full-stack attendance platform with a React frontend and Express/MongoDB backe
 ## GITHUB ANALYTICS
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=sulthanhadilk&show_icons=true&theme=chartreuse-dark&hide_border=true&include_all_commits=true" alt="GitHub statistics for Sulthan Hadil" />
-  <img height="170" src="https://streak-stats.demolab.com?user=sulthanhadilk&theme=chartreuse-dark&hide_border=true" alt="GitHub contribution streak for Sulthan Hadil" />
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=sulthanhadilk&theme=github_dark" alt="GitHub statistics for Sulthan Hadil" />
+  <img height="200" src="https://streak-stats.demolab.com?user=sulthanhadilk&theme=chartreuse-dark&hide_border=true" alt="GitHub contribution streak for Sulthan Hadil" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sulthanhadilk&layout=compact&theme=chartreuse-dark&hide_border=true" alt="Most used programming languages" />
+  <img height="200" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=sulthanhadilk&theme=github_dark" alt="Most used programming languages by repository" />
 </p>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=sulthanhadilk&theme=github-compact&hide_border=true&area=true&color=00FF41&line=00D9FF&point=FFFFFF" width="100%" alt="GitHub activity graph" />
+> These cards are generated SVGs, not continuous animations. They refresh when the providers regenerate their cache.
 
 <img src="./assets/divider.svg" width="100%" alt="Neon divider" />
 
